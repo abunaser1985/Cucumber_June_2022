@@ -34,8 +34,8 @@ public class LoginStepDefination extends TestBase {
 	 }
 	 
 	 @When ("^User enters username as \"([^\"]*)\"$")
-	 public void user_enter_username_as(String username) {
-         loginpage.insertUserName(username);
+	 public void user_enters_username_as(String username) {
+	      loginpage.insertUserName(username);
 	 }
 	 
 	 @When("^User enters password as \"([^\"]*)\"$")

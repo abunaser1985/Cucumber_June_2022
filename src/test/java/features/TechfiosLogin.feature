@@ -4,7 +4,7 @@ Feature: Techfios bank and cash New Account Functionality
 Scenario Outline: User should be able to login with valid credentials and open a new account	
 	Given User is on the techfios login page 
 	When User enters username as "<username>" 
-	When User enters password as "<Password>"
+	When User enters password as "<password>"
 	And User clicks on signin Button
 	Then User should land on Dashboard page 
 	And User clicks on bank and cash
@@ -20,7 +20,7 @@ Scenario Outline: User should be able to login with valid credentials and open a
 	Then User should be able to validate account created successfully
 	
 Examples:
-|username         |Password|Account Title |Description									|Initial Balance|Account Number	|Contact Person	|Phone		|Internet Banking URL				|
+|username         |password|Account Title |Description									|Initial Balance|Account Number	|Contact Person	|Phone		|Internet Banking URL				|
 |demo@techfios.com|abc123  |Saving				|This is created by Abu Naser |1100						|657						|Abu Naser			|8881456	|https://www.wellsfargo.com/|
 |demo@techfios.com|abc123  |Checking			|This is created by Abu Naser |2400						|985						|Abu Naser			|8881456	|https://www.BOFA.com/			|
 

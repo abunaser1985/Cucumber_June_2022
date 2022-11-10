@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 3964423930,
+              "duration": 3410495167,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 3247292610,
+              "duration": 3237976762,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2032957013,
+              "duration": 1335477052,
               "status": "passed"
             },
             "line": 5,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 235374440,
+              "duration": 199630133,
               "status": "passed"
             },
             "line": 6,
@@ -58,7 +58,7 @@
                   "offset": 25
                 }
               ],
-              "location": "LoginStepDefination.user_enter_username_as(String)"
+              "location": "LoginStepDefination.user_enters_username_as(String)"
             },
             "matchedColumns": [
               0
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 78926830,
+              "duration": 103218475,
               "status": "passed"
             },
             "line": 7,
@@ -88,7 +88,7 @@
           },
           {
             "result": {
-              "duration": 1025537354,
+              "duration": 727245762,
               "status": "passed"
             },
             "line": 8,
@@ -100,7 +100,7 @@
           },
           {
             "result": {
-              "duration": 15836946,
+              "duration": 9513629,
               "status": "passed"
             },
             "line": 9,
@@ -112,8 +112,9 @@
           },
           {
             "result": {
-              "duration": 87248344,
-              "status": "passed"
+              "duration": 30114301831,
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d107.0.5304.87)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027Aymaans-Air\u0027, ip: \u00272600:1700:1040:ff40:383c:9a6f:bda1:cf84%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002713.0\u0027, java.version: \u00271.8.0_333\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/dr/t222vgk14wv...}, goog:chromeOptions: {debuggerAddress: localhost:62295}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3399f653bdca1f784602d662bacbeb4f\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\n\tat pages.DashBoardPage.insertbankCash(DashBoardPage.java:25)\n\tat steps.LoginStepDefination.user_clicks_on_bankCash(LoginStepDefination.java:61)\n\tat ✽.And User clicks on bank and cash(features/TechfiosLogin.feature:10)\n",
+              "status": "failed"
             },
             "line": 10,
             "name": "User clicks on bank and cash",
@@ -124,8 +125,7 @@
           },
           {
             "result": {
-              "duration": 577204461,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 11,
             "name": "User clicks on New Account",
@@ -136,8 +136,7 @@
           },
           {
             "result": {
-              "duration": 118179850,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 12,
             "name": "User enters Account Title in accounts page as \"Saving\"",
@@ -157,8 +156,7 @@
           },
           {
             "result": {
-              "duration": 226037794,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 13,
             "name": "User enters accounts description as \"This is created by Abu Naser\" in accounts page",
@@ -178,8 +176,7 @@
           },
           {
             "result": {
-              "duration": 150190235,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 14,
             "name": "User enters account inital balance as \"1100\" in accounts page",
@@ -199,8 +196,7 @@
           },
           {
             "result": {
-              "duration": 133517603,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
             "name": "User enters account number as \"657\" in accounts page",
@@ -220,8 +216,7 @@
           },
           {
             "result": {
-              "duration": 185243558,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 16,
             "name": "User enters contact person as \"Abu Naser\" in accounts page",
@@ -241,8 +236,7 @@
           },
           {
             "result": {
-              "duration": 177160005,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 17,
             "name": "User enters phone number as \"8881456\" in accounts page",
@@ -262,8 +256,7 @@
           },
           {
             "result": {
-              "duration": 197706579,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 18,
             "name": "User enters Internet Banking URL as \"https://www.wellsfargo.com/\" in accounts page",
@@ -283,8 +276,7 @@
           },
           {
             "result": {
-              "duration": 6708456389,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 19,
             "name": "User clicks on submit",
@@ -295,8 +287,7 @@
           },
           {
             "result": {
-              "duration": 6271568,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 20,
             "name": "User should be able to validate account created successfully",
@@ -317,7 +308,7 @@
         "before": [
           {
             "result": {
-              "duration": 2392554377,
+              "duration": 2474905244,
               "status": "passed"
             },
             "match": {
@@ -332,7 +323,7 @@
         "after": [
           {
             "result": {
-              "duration": 3216086891,
+              "duration": 3210844066,
               "status": "passed"
             },
             "match": {
@@ -345,7 +336,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1673037811,
+              "duration": 1194404151,
               "status": "passed"
             },
             "line": 5,
@@ -357,7 +348,7 @@
           },
           {
             "result": {
-              "duration": 201710150,
+              "duration": 219991219,
               "status": "passed"
             },
             "line": 6,
@@ -369,7 +360,7 @@
                   "offset": 25
                 }
               ],
-              "location": "LoginStepDefination.user_enter_username_as(String)"
+              "location": "LoginStepDefination.user_enters_username_as(String)"
             },
             "matchedColumns": [
               0
@@ -378,7 +369,7 @@
           },
           {
             "result": {
-              "duration": 78008635,
+              "duration": 93048279,
               "status": "passed"
             },
             "line": 7,
@@ -399,7 +390,7 @@
           },
           {
             "result": {
-              "duration": 2163602660,
+              "duration": 771844832,
               "status": "passed"
             },
             "line": 8,
@@ -411,7 +402,7 @@
           },
           {
             "result": {
-              "duration": 9967391,
+              "duration": 7440269,
               "status": "passed"
             },
             "line": 9,
@@ -423,8 +414,9 @@
           },
           {
             "result": {
-              "duration": 248358790,
-              "status": "passed"
+              "duration": 30065913901,
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d107.0.5304.87)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027Aymaans-Air\u0027, ip: \u00272600:1700:1040:ff40:383c:9a6f:bda1:cf84%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002713.0\u0027, java.version: \u00271.8.0_333\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/dr/t222vgk14wv...}, goog:chromeOptions: {debuggerAddress: localhost:62490}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e34b310785da417645501364cfd6d1c4\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\n\tat pages.DashBoardPage.insertbankCash(DashBoardPage.java:25)\n\tat steps.LoginStepDefination.user_clicks_on_bankCash(LoginStepDefination.java:61)\n\tat ✽.And User clicks on bank and cash(features/TechfiosLogin.feature:10)\n",
+              "status": "failed"
             },
             "line": 10,
             "name": "User clicks on bank and cash",
@@ -435,8 +427,7 @@
           },
           {
             "result": {
-              "duration": 554747299,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 11,
             "name": "User clicks on New Account",
@@ -447,8 +438,7 @@
           },
           {
             "result": {
-              "duration": 128465480,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 12,
             "name": "User enters Account Title in accounts page as \"Checking\"",
@@ -468,8 +458,7 @@
           },
           {
             "result": {
-              "duration": 181640748,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 13,
             "name": "User enters accounts description as \"This is created by Abu Naser\" in accounts page",
@@ -489,8 +478,7 @@
           },
           {
             "result": {
-              "duration": 153220867,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 14,
             "name": "User enters account inital balance as \"2400\" in accounts page",
@@ -510,8 +498,7 @@
           },
           {
             "result": {
-              "duration": 122252103,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
             "name": "User enters account number as \"985\" in accounts page",
@@ -531,8 +518,7 @@
           },
           {
             "result": {
-              "duration": 145109245,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 16,
             "name": "User enters contact person as \"Abu Naser\" in accounts page",
@@ -552,8 +538,7 @@
           },
           {
             "result": {
-              "duration": 154136987,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 17,
             "name": "User enters phone number as \"8881456\" in accounts page",
@@ -573,8 +558,7 @@
           },
           {
             "result": {
-              "duration": 177342536,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 18,
             "name": "User enters Internet Banking URL as \"https://www.BOFA.com/\" in accounts page",
@@ -594,8 +578,7 @@
           },
           {
             "result": {
-              "duration": 5667407903,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 19,
             "name": "User clicks on submit",
@@ -606,8 +589,7 @@
           },
           {
             "result": {
-              "duration": 9826467,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 20,
             "name": "User should be able to validate account created successfully",

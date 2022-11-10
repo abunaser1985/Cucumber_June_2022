@@ -32,7 +32,7 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "User enters password as \"\u003cPassword\u003e\"",
+  "name": "User enters password as \"\u003cpassword\u003e\"",
   "keyword": "When "
 });
 formatter.step({
@@ -109,7 +109,7 @@ formatter.examples({
     {
       "cells": [
         "username",
-        "Password",
+        "password",
         "Account Title",
         "Description",
         "Initial Balance",
@@ -155,7 +155,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 3964423930,
+  "duration": 3410495167,
   "status": "passed"
 });
 formatter.scenario({
@@ -283,7 +283,7 @@ formatter.match({
   "location": "LoginStepDefination.user_is_on_techfios_loginpage()"
 });
 formatter.result({
-  "duration": 2032957013,
+  "duration": 1335477052,
   "status": "passed"
 });
 formatter.match({
@@ -293,10 +293,10 @@ formatter.match({
       "offset": 25
     }
   ],
-  "location": "LoginStepDefination.user_enter_username_as(String)"
+  "location": "LoginStepDefination.user_enters_username_as(String)"
 });
 formatter.result({
-  "duration": 235374440,
+  "duration": 199630133,
   "status": "passed"
 });
 formatter.match({
@@ -309,36 +309,36 @@ formatter.match({
   "location": "LoginStepDefination.user_enters_password_as(String)"
 });
 formatter.result({
-  "duration": 78926830,
+  "duration": 103218475,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.user_clicks_the_login_button()"
 });
 formatter.result({
-  "duration": 1025537354,
+  "duration": 727245762,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.user_should_land_on_Dashboard_page()"
 });
 formatter.result({
-  "duration": 15836946,
+  "duration": 9513629,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.user_clicks_on_bankCash()"
 });
 formatter.result({
-  "duration": 87248344,
-  "status": "passed"
+  "duration": 30114301831,
+  "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d107.0.5304.87)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027Aymaans-Air\u0027, ip: \u00272600:1700:1040:ff40:383c:9a6f:bda1:cf84%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002713.0\u0027, java.version: \u00271.8.0_333\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/dr/t222vgk14wv...}, goog:chromeOptions: {debuggerAddress: localhost:62295}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3399f653bdca1f784602d662bacbeb4f\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\n\tat pages.DashBoardPage.insertbankCash(DashBoardPage.java:25)\n\tat steps.LoginStepDefination.user_clicks_on_bankCash(LoginStepDefination.java:61)\n\tat ✽.And User clicks on bank and cash(features/TechfiosLogin.feature:10)\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "LoginStepDefination.user_clicks_on_newAccount()"
 });
 formatter.result({
-  "duration": 577204461,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -350,8 +350,7 @@ formatter.match({
   "location": "LoginStepDefination.user_enters_Account_Title_in_accounts_page_as(String)"
 });
 formatter.result({
-  "duration": 118179850,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -363,8 +362,7 @@ formatter.match({
   "location": "LoginStepDefination.user_enters_accounts_description_as_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 226037794,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -376,8 +374,7 @@ formatter.match({
   "location": "LoginStepDefination.user_enters_account_inital_balance_as_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 150190235,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -389,8 +386,7 @@ formatter.match({
   "location": "LoginStepDefination.user_enters_account_number_as_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 133517603,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -402,8 +398,7 @@ formatter.match({
   "location": "LoginStepDefination.user_enters_contact_person_as_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 185243558,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -415,8 +410,7 @@ formatter.match({
   "location": "LoginStepDefination.user_enters_phone_number_as_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 177160005,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -428,29 +422,26 @@ formatter.match({
   "location": "LoginStepDefination.user_enters_Internet_Banking_URL_as_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 197706579,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginStepDefination.user_clicks_on_submit()"
 });
 formatter.result({
-  "duration": 6708456389,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginStepDefination.user_should_be_able_to_validate_account_created_successfully()"
 });
 formatter.result({
-  "duration": 6271568,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 3247292610,
+  "duration": 3237976762,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2392554377,
+  "duration": 2474905244,
   "status": "passed"
 });
 formatter.scenario({
@@ -578,7 +569,7 @@ formatter.match({
   "location": "LoginStepDefination.user_is_on_techfios_loginpage()"
 });
 formatter.result({
-  "duration": 1673037811,
+  "duration": 1194404151,
   "status": "passed"
 });
 formatter.match({
@@ -588,10 +579,10 @@ formatter.match({
       "offset": 25
     }
   ],
-  "location": "LoginStepDefination.user_enter_username_as(String)"
+  "location": "LoginStepDefination.user_enters_username_as(String)"
 });
 formatter.result({
-  "duration": 201710150,
+  "duration": 219991219,
   "status": "passed"
 });
 formatter.match({
@@ -604,36 +595,36 @@ formatter.match({
   "location": "LoginStepDefination.user_enters_password_as(String)"
 });
 formatter.result({
-  "duration": 78008635,
+  "duration": 93048279,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.user_clicks_the_login_button()"
 });
 formatter.result({
-  "duration": 2163602660,
+  "duration": 771844832,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.user_should_land_on_Dashboard_page()"
 });
 formatter.result({
-  "duration": 9967391,
+  "duration": 7440269,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.user_clicks_on_bankCash()"
 });
 formatter.result({
-  "duration": 248358790,
-  "status": "passed"
+  "duration": 30065913901,
+  "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d107.0.5304.87)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027Aymaans-Air\u0027, ip: \u00272600:1700:1040:ff40:383c:9a6f:bda1:cf84%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002713.0\u0027, java.version: \u00271.8.0_333\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/dr/t222vgk14wv...}, goog:chromeOptions: {debuggerAddress: localhost:62490}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e34b310785da417645501364cfd6d1c4\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\n\tat pages.DashBoardPage.insertbankCash(DashBoardPage.java:25)\n\tat steps.LoginStepDefination.user_clicks_on_bankCash(LoginStepDefination.java:61)\n\tat ✽.And User clicks on bank and cash(features/TechfiosLogin.feature:10)\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "LoginStepDefination.user_clicks_on_newAccount()"
 });
 formatter.result({
-  "duration": 554747299,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -645,8 +636,7 @@ formatter.match({
   "location": "LoginStepDefination.user_enters_Account_Title_in_accounts_page_as(String)"
 });
 formatter.result({
-  "duration": 128465480,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -658,8 +648,7 @@ formatter.match({
   "location": "LoginStepDefination.user_enters_accounts_description_as_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 181640748,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -671,8 +660,7 @@ formatter.match({
   "location": "LoginStepDefination.user_enters_account_inital_balance_as_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 153220867,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -684,8 +672,7 @@ formatter.match({
   "location": "LoginStepDefination.user_enters_account_number_as_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 122252103,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -697,8 +684,7 @@ formatter.match({
   "location": "LoginStepDefination.user_enters_contact_person_as_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 145109245,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -710,8 +696,7 @@ formatter.match({
   "location": "LoginStepDefination.user_enters_phone_number_as_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 154136987,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -723,25 +708,22 @@ formatter.match({
   "location": "LoginStepDefination.user_enters_Internet_Banking_URL_as_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 177342536,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginStepDefination.user_clicks_on_submit()"
 });
 formatter.result({
-  "duration": 5667407903,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginStepDefination.user_should_be_able_to_validate_account_created_successfully()"
 });
 formatter.result({
-  "duration": 9826467,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 3216086891,
+  "duration": 3210844066,
   "status": "passed"
 });
 });

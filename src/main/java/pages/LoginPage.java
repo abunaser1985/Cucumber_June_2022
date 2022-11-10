@@ -21,8 +21,8 @@ public class LoginPage {
 	@FindBy(how = How.XPATH, using = "/html/body/div/div/div/form/div[3]/button")
 	WebElement loginButton;
 	
-	public void insertUserName(String userName) {
-		userNameElement.sendKeys(userName);
+	public void insertUserName(String username) {
+		userNameElement.sendKeys(username);
 	}
 
 	public void insertPassWord(String password) {
